@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="89dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Network Shooter"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>

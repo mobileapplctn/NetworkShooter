@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PhotoShooter</string>
+    <string name="booking_sizetext">Size &amp; Prize</string>
 </resources>
